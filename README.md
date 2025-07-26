@@ -1,6 +1,6 @@
 # Cherry Blossom Terminal Animation
 
-A beautiful cherry blossom animation that plays when you open a new terminal window, featuring pink petals gently falling across your screen.
+A minimalistic cherry blossom animation that plays when you open a new terminal window, featuring pink petals gliding across your screen.
 
 ## Features
 
@@ -11,6 +11,13 @@ A beautiful cherry blossom animation that plays when you open a new terminal win
 
 ## Installation
 
+         ●
+    ●         ●
+     ●      ●
+          ●    ●
+       ●         ●
+
+       
 1. Clone this repository:
    ```bash
    git clone https://github.com/yourusername/cherry-blossom-terminal.git
