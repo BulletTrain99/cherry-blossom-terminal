@@ -24,17 +24,6 @@ def hide_cursor():
 
 def show_cursor():
     print('\033[?25h', end='')
-
-def draw_samurai(rows):
-    samurai = [
-        "    ⚔️",
-        "   /|\\",
-        "    |",
-        "   / \\",
-        "  /   \\",
-        "   | |",
-        "   | |"
-    ]
     
     start_y = max(1, rows - len(samurai) - 2)
     
