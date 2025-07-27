@@ -40,14 +40,12 @@ A minimalistic cherry blossom animation that plays when you open a new terminal 
 
 ## How it Works
 
-The animation creates pink dots (●) that fall from the top-right to bottom-left of your terminal, simulating cherry blossom petals. The script:
+The animation creates pink dots that fall from the top-right to bottom-left of your terminal. The script:
 
 - Detects terminal size automatically
 - Uses ANSI escape codes for positioning and colors
 - Waits for any keypress before returning control to your shell
 - Only runs in interactive terminals (not in scripts or SSH sessions)
-
-## Customization
 
 You can modify the animation by editing `cherry_blossom.py`:
 
