@@ -1,11 +1,8 @@
 # Cherry Blossom Terminal Animation
 
-A minimalistic cherry blossom animation that plays when you open a new terminal window, featuring pink petals gliding across your screen. 
+A minimalistic cherry blossom animation that plays when you open a new terminal window, featuring pink petals gliding across your screen. Pressing any button enters terminal as usual. Works on macOS and Linux terminals
 
 ![Demo](Demo.gif)
-
-- Pressing any button enters terminal as usual.
-- Works on macOS and Linux terminals
 
 ## Installation
        
