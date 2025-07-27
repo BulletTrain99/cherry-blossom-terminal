@@ -51,8 +51,8 @@ You can modify the animation by editing `cherry_blossom.py`:
 
 - **Petal color**: Change the `PINK` color code in the `Colors` class
 - **Fall speed**: Adjust `speed_x` and `speed_y` values in the `PinkDot` class
-- **Spawn rate**: Modify the frame check in the main loop (currently `frame % 3 == 0`)
-- **Petal character**: Change the `char` property (try ❀, ✿, or other Unicode flowers)
+- **Spawn rate**: Modify the frame check in the main loop 
+- **Petal character**: Change the `char` property
 
 ## Requirements
 
