@@ -24,19 +24,6 @@ def hide_cursor():
 
 def show_cursor():
     print('\033[?25h', end='')
-    
-    start_y = max(1, rows - len(samurai) - 2)
-    
-    for i, line in enumerate(samurai):
-        move_cursor(3, start_y + i)
-        if i == 0:  # Sword
-            print(f"{Colors.WHITE}{line}{Colors.RESET}", end='')
-        else:  # Body
-            print(f"{Colors.GRAY}{line}{Colors.RESET}", end='')
-    
-    # Add ground
-    move_cursor(1, rows - 1)
-    print(f"{Colors.GRAY}{'─' * 15}{Colors.RESET}", end='')
 
 class PinkDot:
     def __init__(self, cols, rows):
