@@ -6,7 +6,7 @@ A minimalistic cherry blossom animation that plays when you open a new terminal 
 
 ## Installation
        
-1. Clone this repository:
+1. Clone this repository, don't forget to change 'yourusername' to your actual github username:
    ```bash
    git clone https://github.com/yourusername/cherry-blossom-terminal.git
    cd cherry-blossom-terminal
